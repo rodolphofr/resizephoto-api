@@ -29,13 +29,11 @@ Run bundler to get dependencies
 $ bundle install
 ```
 
-### Database
 Make sure mongo is running
 ```
 $ brew services start mongodb
 ```
 
-### Task
 To import images from Webservice
 ```
 $ rake images:import
