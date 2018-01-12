@@ -44,7 +44,7 @@ Start application
 $ rails s 
 ```
 
-### Run test suite
+### Run Test Suite
 ```
 $ rspec
 ```
