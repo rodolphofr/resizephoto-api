@@ -8,8 +8,7 @@ Your mission:
 
 ### Language choice
 I used Ruby because I'm more familiar and because it's the language I like to work with.
-The choice was also based on ease integration with:
-* MongoDB
+The choice was also based on ease integration with MongoDB.
 
 ### Dependencies
 * ruby (2.3.1 or higher)
