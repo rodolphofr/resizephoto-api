@@ -7,7 +7,7 @@ namespace :images do
     p 'Initializing the import images'
     image_writer = ImageWriterService.new
     p 'Importing images...'
-    image_writer.fill_images
+    image_writer.populate
     p 'Finish'
   end
 

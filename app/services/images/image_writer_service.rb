@@ -3,7 +3,7 @@ require File.join(Rails.root, "lib/images/image_downloader")
 require_relative 'b2w_images_request'
 
 class ImageWriterService
-  def fill_images
+  def populate
     responses  = B2WImagesRequest.get
     resizer    = ImageResizer.new
     downloader = ImageDownloader.new
